@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:pathData="M100,100m-80,0a80,80 0,1 1,160 0a80,80 0,1 1,-160 0" />
+
+    <!-- Clock face -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M100,30C61.34,30 30,61.34 30,100C30,138.66 61.34,170 100,170C138.66,170 170,138.66 170,100C170,61.34 138.66,30 100,30zM100,160C66.86,160 40,133.14 40,100C40,66.86 66.86,40 100,40C133.14,40 160,66.86 160,100C160,133.14 133.14,160 100,160z" />
+
+    <!-- Hour marks -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M100,50L100,60M150,100L140,100M100,150L100,140M50,100L60,100" />
+
+    <!-- Clock hands -->
+    <path
+        android:strokeColor="#F44336"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M100,100L100,70" />
+    <path
+        android:strokeColor="#2196F3"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M100,100L130,100" />
+
+    <!-- Center dot -->
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M100,100m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+
+</vector> 

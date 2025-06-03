@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:translateX="21.6"
+        android:translateY="21.6">
+        <!-- Outer circle -->
+        <path
+            android:fillColor="#4CAF50"
+            android:pathData="M54,27C39.088,27 27,39.088 27,54C27,68.912 39.088,81 54,81C68.912,81 81,68.912 81,54C81,39.088 68.912,27 54,27zM54,75C42.402,75 33,65.598 33,54C33,42.402 42.402,33 54,33C65.598,33 75,42.402 75,54C75,65.598 65.598,75 54,75z"/>
+        <!-- Inner circle with progress indicator -->
+        <path
+            android:fillColor="#2196F3"
+            android:pathData="M54,37.5C44.887,37.5 37.5,44.887 37.5,54C37.5,63.113 44.887,70.5 54,70.5C63.113,70.5 70.5,63.113 70.5,54C70.5,44.887 63.113,37.5 54,37.5zM54,66C47.373,66 42,60.627 42,54C42,47.373 47.373,42 54,42C60.627,42 66,47.373 66,54C66,60.627 60.627,66 54,66z"/>
+        <!-- Timer hand -->
+        <path
+            android:fillColor="#F44336"
+            android:pathData="M54,48L54,36C55.657,36 57,37.343 57,39L57,48L54,48z"/>
+    </group>
+</vector> 

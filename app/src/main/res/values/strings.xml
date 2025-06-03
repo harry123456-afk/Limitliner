@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LimitLiner</string>
+    <string name="accessibility_service_description">LimitLiner uses accessibility service to help you manage your app usage and enforce time limits.</string>
+</resources>
